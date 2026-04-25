@@ -2,3 +2,23 @@ fastapi
 uvicorn
 pydantic
 python-multipart
+jinja2
+aiofiles
+requests
+numpy
+
+# Session support
+itsdangerous
+
+# AI (Gemini)
+google-generativeai
+
+# Audio processing
+librosa
+soundfile
+scipy
+numba
+
+# Quantum
+qiskit
+qiskit-aer
