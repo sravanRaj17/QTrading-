@@ -58,7 +58,7 @@ CAPITAL = 10_000.0          # Trading capital for risk calculation
 MAX_RISK_PCT = 0.05          # 5% max risk per trade
 SECRET_KEY = secrets.token_hex(32)  # For session middleware
 DB_PATH = "trading_psych.db"
-GEMINI_API_KEY = os.getenv("AIzaSyBjb2-qopmrG7MXCtiGTnkvIJ_p-4Ah5bE")  # Set this environment variable
+GEMINI_API_KEY = os.getenv("OPENAI_API_KEY")  # Set this environment variable
 
 if GEMINI_AVAILABLE and GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
